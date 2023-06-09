@@ -55,3 +55,9 @@ HTTP: sends data in pain text
 HTTPs:  
 * sends data in encypted form
 * uses internally TLS
+
+HTTPs Steps
+* step1: tcp handshake :  tcp ack, tcp ack/sync, tcp ack
+* step2: certificate check : asynmetric encryption (public/private key)
+* step3: key exchange : session key exchange
+* step4: encrypted data transmission
